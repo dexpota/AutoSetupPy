@@ -1,2 +1,2 @@
 # AutoSetupPy
-A simple project showing the use of AutoSetupPt.cmake script
+A simple project showing the use of AutoSetupPy.cmake script.
