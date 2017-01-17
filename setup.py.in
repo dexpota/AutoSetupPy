@@ -1,0 +1,23 @@
+import os
+from setuptools import setup, Extension
+
+setup(
+    name='Simple Example',
+    version='0.0.1',
+    author='Cannot believe I wrote this',
+    author_email='dont_send_me_email@gmail.com',
+    packages=['aSimpleExample'],
+    license='Use as you wish. No guarantees whatsoever.',
+    install_requires=[''],
+    classifiers=['Development Status :: 3 - Alpha'],
+    ext_modules=[
+        Extension(
+		  @extension_module_name@,
+		  @extension_sources@,
+		  include_dirs=@extension_include_dirs@,
+		  library_dirs=@extension_libraries_dirs@,
+		  libraries=@extension_libraries@,
+		  extra_compile_args=@extension_compiler_flags@
+		 )
+     ],
+)
